@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class week4task4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the radius of the cylinder: ");
+        double radius = scanner.nextDouble();
+        
+        System.out.print("Enter the length of the cylinder: ");
+        double length = scanner.nextDouble();
+        
+        double area = Math.PI * Math.pow(radius, 2);
+        double volume = area * length;
+        
+        System.out.printf("The area is %.5f", area);
+        System.out.printf("The volume is %.5f", volume);
+    }
+}
