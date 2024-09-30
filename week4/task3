@@ -1,0 +1,8 @@
+public class week4task3 {
+    public static void main(String[] args) {
+        int daysFromNow = 100;
+        
+        int After100Days = (daysFromNow % 7 + 7) % 7 +2;
+        System.out.println("Day in 100 days will be day: " + After100Days + " of the week");
+    }
+}
