@@ -1,0 +1,11 @@
+package week5;
+
+public class task20 {
+    public static void main(String[] args) {
+        // 演示右对齐输出
+        System.out.printf("%8d %8s %8.1f\n", 1234, "Java", 5.63);
+
+        // 演示左对齐输出
+        System.out.printf("%-8d %-8s %-8.1f\n", 1234, "Java", 5.63);
+    }
+}
